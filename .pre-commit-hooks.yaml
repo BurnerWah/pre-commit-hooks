@@ -19,5 +19,6 @@
 - id: taplo-format
   name: Taplo format
   language: system
+  entry: taplo
   args: [format]
   types: [toml]
