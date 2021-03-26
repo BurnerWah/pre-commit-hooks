@@ -5,3 +5,9 @@
   entry: fish_indent
   args: [-w]
   types: [fish]
+- id: luaformatter
+  name: luaformatter
+  language: system
+  entry: lua-format
+  args: [-i]
+  typs: [lua]
