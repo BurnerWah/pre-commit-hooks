@@ -22,3 +22,4 @@
   entry: taplo
   args: [format]
   types: [toml]
+  require_serial: true
