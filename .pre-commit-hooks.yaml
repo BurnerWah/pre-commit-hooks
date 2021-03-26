@@ -11,3 +11,13 @@
   entry: lua-format
   args: [-i]
   types: [lua]
+- id: stylua
+  name: StyLua
+  language: system
+  entry: stylua
+  types: [lua]
+- id: taplo-format
+  name: Taplo format
+  language: system
+  args: [format]
+  types: [toml]
