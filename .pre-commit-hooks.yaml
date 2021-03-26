@@ -1,0 +1,7 @@
+- id: fish_indent
+  name: fish_indent
+  language: system
+  minimum_pre_commit_version: 2.4.0
+  entry: fish_indent
+  args: [-w]
+  types: [fish]
