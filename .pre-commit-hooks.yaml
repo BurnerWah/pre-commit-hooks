@@ -10,4 +10,4 @@
   language: system
   entry: lua-format
   args: [-i]
-  typs: [lua]
+  types: [lua]
