@@ -1,21 +1,26 @@
 - id: fish_indent
   name: fish_indent
   language: system
-  minimum_pre_commit_version: 2.4.0
   entry: fish_indent
   args: [-w]
   types: [fish]
+  stages: [commit, push, manual]
+
 - id: luaformatter
   name: luaformatter
   language: system
   entry: lua-format
   args: [-i]
   types: [lua]
+  stages: [commit, push, manual]
+
 - id: stylua
   name: StyLua
   language: system
   entry: stylua
   types: [lua]
+  stages: [commit, push, manual]
+
 - id: taplo-format
   name: Taplo format
   language: system
@@ -23,3 +28,4 @@
   args: [format]
   types: [toml]
   pass_filenames: false
+  stages: [commit, push, manual]
